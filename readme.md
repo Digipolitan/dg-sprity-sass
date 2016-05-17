@@ -1,8 +1,8 @@
 # sprity-sass
 
-[![NPM version](https://badge.fury.io/js/sprity-sass.svg)](http://badge.fury.io/js/sprity-sass) [![Build Status](https://travis-ci.org/sprity/sprity-sass.svg?branch=master)](https://travis-ci.org/sprity/sprity-sass) [![Dependencies](https://david-dm.org/sprity/sprity-sass.svg)](https://david-dm.org/sprity/sprity-sass)
+> This is a fork of [sprity-sass](https://github.com/sprity/sprity-sass)
 
-> A sass/scss style processor for [sprity](https://npmjs.org/package/sprity)
+---
 
 ## Requirements
 
@@ -10,16 +10,16 @@
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/sprity-sass)
+Install with [npm](https://npmjs.org/package/dg-sprity-sass)
 
 ```
-npm install sprity sprity-sass --save
+npm install sprity dg-sprity-sass --save
 ```
 
 If you want to use `sprity-sass` with the command line interface of `sprity` install it globally.
 
 ```
-npm install sprity sprity-sass -g
+npm install sprity dg-sprity-sass -g
 ```
 
 ## Options
@@ -82,6 +82,3 @@ sprite.create({
 ## More
 
 See [sprity](https://npmjs.org/package/sprity) documentation
-
----
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sprity/sprity?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
