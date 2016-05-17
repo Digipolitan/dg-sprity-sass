@@ -1,4 +1,4 @@
-# sprity-sass
+# dg-sprity-sass
 
 > This is a fork of [sprity-sass](https://github.com/sprity/sprity-sass)
 
