@@ -35,19 +35,19 @@
   @include sprite-height($sprite);
 }
 
-@mixin icon(){
 {{#each layouts}}
+@mixin {{classname}}(){
 {{#each sprites}}
-{{#if dpi}}
-@media (-webkit-min-device-pixel-ratio: {{ratio}}), (min-resolution: {{dpi}}dpi) {
-{{/if}}
-  background-image: url('{{escimage url}}');
-  {{#if dpi}}
-  background-size: {{baseWidth}}px {{baseHeight}}px;
-  {{/if}}
-{{#if dpi}}
-}
-{{/if}}
+    {{#if dpi}}
+    @media (-webkit-min-device-pixel-ratio: {{ratio}}), (min-resolution: {{dpi}}dpi) {
+    {{/if}}
+    background-image: url('{{escimage url}}');
+    {{#if dpi}}
+    background-size: {{baseWidth}}px {{baseHeight}}px;
+    {{/if}}
+    {{#if dpi}}
+    }
+    {{/if}}
 {{/each}}
-{{/each}}
 }
+{{/each}}
